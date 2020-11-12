@@ -1,3 +1,8 @@
+var SecretSantaResult = function Employee(name, url) {
+    this.name = name || '';
+    this.url = url || '';
+}
+
 var SecretSanta = function () {
 
     this.names = [];
